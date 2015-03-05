@@ -5,8 +5,9 @@ domain=$1
 path=$2
 user=$3
 is_public=$4
+folder=$5
 
-parent_dir=/var/www/webapp_$user
+parent_dir=/var/www/$folder
 if [ $path = "/" ]
 then
     final_path=$parent_dir

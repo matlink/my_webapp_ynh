@@ -45,6 +45,13 @@
                 },
                 "choices": ["Yes", "No"],
                 "default": "Yes"
+            },
+            {
+                "name": "folder_name",
+                "ask" : {
+                    "en": "Choose the folder name of the app",
+                    "fr": "Choisissez le nom du dossier"
+                }
             }
         ]
     }
