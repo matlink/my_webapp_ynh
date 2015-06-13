@@ -26,6 +26,7 @@ if [[ ! $? -eq 0 ]]; then
 fi
 
 sudo yunohost app setting my_webapp name -v $name
+sudo yunohost app setting my_webapp label -v $folder
 
 # Check user
 sudo yunohost user list --json | grep -q "\"username\": \"$user\""
